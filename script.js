@@ -15,11 +15,11 @@ let totalPrice = kmRequest * kmPrice;
 
 if (ageRequest < 18) {
 
-    (totalPrice * 0.20) / 100
+    totalPrice = (totalPrice * 0.20) / 100 
 
 } else if (ageRequest > 65) {
 
-    (totalPrice * 0.40) / 100
+    totalPrice = (totalPrice * 0.40) / 100
 
 };
 
