@@ -25,4 +25,6 @@ if (ageRequest < 18) {
 
 // prezzo finale 
 
-alert(`Il prezzo totale del biglietto è di €${totalPrice}`);
+finalPrice = totalPrice.toFixed(2);
+
+alert(`Il prezzo totale del biglietto è di €${finalPrice}`);
